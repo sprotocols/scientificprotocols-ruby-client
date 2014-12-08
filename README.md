@@ -23,11 +23,36 @@ Or install it yourself as:
 Get protocols.
 ```
 protocols = ScientificProtocols.client.get_protocols
+
+protocols.each do |protocol|
+  puts protocol
+end
 ```
 
 Get a protocol.
 ```
 protocol = ScientificProtocols.client.get_protocol(id: 'beta-glactasidase-stain')
+
+puts protocol
+
+{
+   "id":"beta-glactasidase-stain",
+   "url":"https://www.scientificprotocols.org/api/v1/protocols/beta-glactasidase-stain",
+   "title":"Beta-Glactasidase Stain",
+   "description":"\r\n\r\n### Solutions\r\n\r\n1. Solution A\r\n...",
+   "gist_id":"315e630a1fe9fe6e9bab",
+   "html_url":"https://www.scientificprotocols.org/protocols/beta-glactasidase-stain",
+   "discussion_html_url":"https://www.scientificprotocols.org/protocols/beta-glactasidase-stain/discussion",
+   "tags":[
+      "Histology"
+   ],
+   "author":{
+      "username":"scientificprotocols",
+      "html_url":"https://www.scientificprotocols.org/users/scientificprotocols"
+   },
+   "created_at":"2014-07-09T18:59:17.254Z",
+   "updated_at":"2014-07-09T18:59:17.254Z"
+}
 ```
 
 ## Contributing
