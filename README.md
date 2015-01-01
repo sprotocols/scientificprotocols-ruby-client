@@ -46,6 +46,8 @@ puts protocol
    "tags":[
       "Histology"
    ],
+   "doi":"10.5281/zenodo.13491",
+   "citation_url":"http://dx.doi.org/10.5281/zenodo.13491",
    "author":{
       "username":"scientificprotocols",
       "html_url":"https://www.scientificprotocols.org/users/scientificprotocols"
